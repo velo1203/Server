@@ -9,7 +9,7 @@ import hashlib
 
 cred = credentials.Certificate('./key.json')
 firebase_admin.initialize_app(cred,{
-    'databaseURL' : 'https://messenger-3a47c-default-rtdb.firebaseio.com/'
+    'databaseURL' : ''
 })
 
 app = Flask(__name__)
